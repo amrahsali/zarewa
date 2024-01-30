@@ -1,38 +1,76 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header-text{
   text-align: center;
+  color: rgb(11, 11, 72);
+  font-size: 40px;
+  border: 1px solid rgb(178, 151, 151);
+  padding: 0;
+  height: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.nav-links a{
+  background-color: rgb(11, 11, 72);
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dashbaord-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard-icon1, .dashboard-icon2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-bottns {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.quotation-div{
+  display: flex;
+}
+.qoutation-form {
+  display: flex;
+  padding: 5px;
+  width: 500px;
+  /* border: 1px solid red; */
+}
+.qoutation-heading{
+display: flex;
+   color:white;
+   justify-content: space-around;
+   width: 1000px;
+   height: 60px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.heading-box h5{
+  background-color: rgb(11, 11, 72);
+  width: 100px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction-heading{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(11, 11, 72);
+  padding: 20px;
+  
 }
