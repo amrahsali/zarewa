@@ -3,6 +3,7 @@ import React from 'react'
 const Stock = () => {
   return (
     <div>
+        
     <h4>  Finished Stock</h4>
     <div>
         <h1> Stock </h1>
